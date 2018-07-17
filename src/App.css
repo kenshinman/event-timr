@@ -1,0 +1,43 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.digit {
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+.time {
+  font-size: 6rem;
+}
+
+.centrally {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+form {
+  color: #333 !important;
+  min-width: 450px;
+}
+
+form input,
+textarea {
+  color: #333 !important;
+  border: 1px solid #ccc !important;
+}
+
+.stn-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
